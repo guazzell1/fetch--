@@ -1,0 +1,44 @@
+ul{
+    list-style: none;
+}
+
+.container
+{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 10px;
+}
+
+.titulo
+{
+    color: lightcoral;
+    border: solid lightcoral;
+    border-radius: 10px;
+    padding: 5px;
+    border-width: 1px;
+}
+
+ul#lista li {
+    padding: 3px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: lightcoral;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: lightsalmon;
+}
+
+button:active {
+    background-color: lightgray;
+}
